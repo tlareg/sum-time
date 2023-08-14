@@ -1,0 +1,30 @@
+{
+  "name": "@tlareg/sum-time",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/index.ts",
+    "build": "tsc",
+    "start:bin": "node ./bin/index.js",
+    "start:npx": "npx ."
+  },
+  "bin": {
+    "sum-time": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlareg/sum-time.git"
+  },
+  "author": "Tlareg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tlareg/sum-time/issues"
+  },
+  "homepage": "https://github.com/tlareg/sum-time#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4"
+  }
+}
