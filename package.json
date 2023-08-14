@@ -13,6 +13,9 @@
   "bin": {
     "sum-time": "./bin/index.js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tlareg/sum-time.git"
